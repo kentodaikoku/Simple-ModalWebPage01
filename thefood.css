@@ -1,3 +1,7 @@
+:root {
+    --color-primary: #DFE1DF;
+}
+
 body {
     max-width: 100%;
     /*margin: 0 auto;*/
@@ -17,6 +21,7 @@ h1 {
     padding-left: 20px;
     padding-top: 20px;
     color: #DFE1DF;
+    height: auto;
 }
 
 h1 a {
@@ -37,14 +42,14 @@ h1 a {
 /*モーダル///////////////////////////////////////////////////////////////*/
 .modal-title {
     font-size: 1rem;
-    border-bottom: solid 3px #F5D0A9;
+    border-bottom: solid 3px var(--color-primary);
     padding-bottom: 2px;
     margin: 0 50px 20px;
     /*color: #F5D0A9;*/
 }
 
 .modal-title h2 {
-    color: #6A4714;
+    color: #9e6614;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -109,6 +114,6 @@ h1 a {
 
 footer {
     text-align: center;
-    border-top: solid 1px #F5D0A9;
+    border-top: solid 1px var(--color-primary);
     margin: 20px auto 10px;
 }
