@@ -1,0 +1,114 @@
+body {
+    max-width: 100%;
+    /*margin: 0 auto;*/
+}
+
+header, main, footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #DFE1DF;
+}
+
+h1 a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'DynaPuff', cursive;
+}
+
+#carousel img {
+    min-width: 100%;
+    max-width: 100%;
+    height: 450px;
+    max-height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/*モーダル///////////////////////////////////////////////////////////////*/
+.modal-title {
+    font-size: 1rem;
+    border-bottom: solid 3px #F5D0A9;
+    padding-bottom: 2px;
+    margin: 0 50px 20px;
+    /*color: #F5D0A9;*/
+}
+
+.modal-title h2 {
+    color: #6A4714;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.modal-title h2:first-child {
+    background-image: url(img-materials/icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.modal-flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.modal-flex img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.modal-contents {
+    margin: 0 10px;
+}
+
+/*モーダル表示画面*/
+.modal {
+    display: none;
+    max-width: 100%;
+}
+.modaal-container {
+    margin: 0 auto;
+}
+
+.modaal-content-container img {
+    max-width: 100%;
+}
+
+.modaal-content-container img, .modaal-content-container p {
+    padding-bottom: 10px;
+}
+
+.share-btn {
+    /*display: inline-block;*/
+    border: solid 1px black;
+    background: #F2F2F2;
+    padding: 3px 10px 3px 20px;
+    /*width: 100%;*/
+    /*font-size: 20px;*/
+    border-radius: 10%;
+}
+
+.share-btn:first-child {
+    background-image: url(img-materials/share-boxed-2x.png);
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+footer {
+    text-align: center;
+    border-top: solid 1px #F5D0A9;
+    margin: 20px auto 10px;
+}
